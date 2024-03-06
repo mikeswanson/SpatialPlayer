@@ -27,7 +27,7 @@ struct ContentView: View {
                 Text("Spatial Player").font(.title).padding()
                 Text("by Michael Swanson")
                 Link("https://blog.mikeswanson.com/spatial", destination: URL(string: "https://blog.mikeswanson.com/spatial")!)
-                Text("An example spatial video player for MV-HEVC video.\nIt doesn't do much, but I hope it gets you started.").padding()
+                Text("An example spatial video player for MV-HEVC video.\nIt doesn't do much, but I hope it gets you started.\nIf you build something with it, let me know!").padding()
             }
             Button("Select Video", systemImage: "video.fill") {
                 viewModel.isImmersiveSpaceShown = false
