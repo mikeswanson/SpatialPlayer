@@ -32,6 +32,13 @@ struct ImmersiveView: View {
                 print("Failed to get video info")
                 return
             }
+
+            // NOTE: If you want to force a custom projection, horizontal field of view, etc. because
+            // your media doesn't contain the correct metadata, you can do that here. For example:
+            //
+            // videoInfo.projectionType = .equirectangular
+            // videoInfo.horizontalFieldOfView = 360.0
+
             viewModel.videoInfo = videoInfo
             viewModel.isSpatialVideoAvailable = videoInfo.isSpatial
             
