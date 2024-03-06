@@ -39,7 +39,7 @@ struct DocumentPicker: UIViewControllerRepresentable {
             }
             parent.viewModel.videoURL = selectedURL
             parent.viewModel.isDocumentPickerPresented = false
-            parent.viewModel.isImmersiveSpaceShown = true  // Updated to match refactored PlayerViewModel.
+            parent.viewModel.isImmersiveSpaceShown = true
         }
     }
 }
