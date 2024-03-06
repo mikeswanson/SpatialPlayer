@@ -31,8 +31,12 @@ struct VideoTools {
     /// Generates a sphere mesh suitable for mapping an equirectangular video source.
     /// - Parameters:
     ///   - radius: The radius of the sphere.
-    ///   - longitudeSlices: The number of divisions around the sphere.
-    ///   - latitudeSlices: The number of divisions from top to bottom.
+    ///   - sourceHorizontalFov: Horizontal field of view of the source material.
+    ///   - sourceVerticalFov: Vertical field of view of the source material.
+    ///   - clipHorizontalFov: Horizontal field of view to clip.
+    ///   - clipVerticalFov: Vertical field of view to clip.
+    ///   - verticalSlices: The number of divisions around the sphere.
+    ///   - horizontalSlices: The number of divisions from top to bottom.
     /// - Returns: A MeshResource representing the sphere.
     static func generateVideoSphere(
         radius: Float,
