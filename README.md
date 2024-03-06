@@ -7,6 +7,8 @@ With Vision Pro, Apple has created a device that can playback spatial and immers
 
 Out of necessity, I created a very bare-bones spatial video player to test the output of my command-line tool. It has also been used to test video samples that have been sent to me by interested parties. I've played up to 12K-per-eye (11520x5760) 360º stereo content (though at a low frame rate).
 
+[![Video](https://img.youtube.com/vi/ZHg9f4RwnLY/hqdefault.jpg)](https://www.youtube.com/watch?v=ZHg9f4RwnLY)
+
 ## Features
 I hesitate to list features, because there are so few of them!
 
